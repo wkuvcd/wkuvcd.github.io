@@ -1,0 +1,53 @@
+/** FONT STYLESHEET **/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.right_menu{
+    color : rgba(255, 255, 255, 1);
+    margin : 0px 10px;
+    font-family : 'roboto', 'sans serif';
+    font-weight: 500;
+    font-size : 18px;
+}
+a{text-decoration : none;
+    color : inherit;
+    }
+/** SHAPE STYLESHEET**/
+body{background-color : #000000};
+#symbolmark{width : 257px;
+    height : 55px;
+    position : absolute;}
+#top_nevigation_bar{
+    width : 62.5%;
+    margin : 20px 15% 0px 15%;
+    position : absolute;
+    }
+#right_menu_group{
+    float : right;
+}
+iframe {
+    width: 100%;
+    height: 80vh;
+    border: none;
+    margin : 100px 0px 0px 0px;}
+#copyright_area{
+    width : 1200px;
+    margin : 30px 300px;
+}
+#copyright{
+    color : rgba(255, 255, 255, 1);
+    font-family : 'roboto', 'sans serif';
+    font-weight : 400;
+    font-size : 14px;}
+#Address{
+    color : rgba(255, 255, 255, 1);
+    font-family : 'roboto', 'sans serif';
+    font-weight : 400;
+    font-size : 14px;
+    margin : 0px 0px 0px 200px;
+}
+#Tel{
+    color : rgba(255, 255, 255, 1);
+    font-family : 'roboto', 'sans serif';
+    font-weight : 400;
+    font-size : 14px;
+    float : right;
+}
