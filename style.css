@@ -1,37 +1,48 @@
 /** FONT STYLESHEET **/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body{
     display : flex;
     flex-direction : column;
     align-items : center;
     height : 100vh;
-    margin : 0;
+    margin : 0px;
     background-color: #131313;
 }
 
 .right_menu{
     color : rgba(255, 255, 255, 1);
     margin : 0px 10px;
-    font-family : 'roboto', 'sans serif';
-    font-weight: 500;
-    font-size : 18px;
+    font-family : 'IBM Plex Sans KR', 'sans serif';
+    font-weight: 400;
+    font-size : 16px;
 }
 a{text-decoration : none;
     color : inherit;
     }
 /** SHAPE STYLESHEET**/
-#symbolmark{width : 257px;
-    height : 55px;
-    position : absolute;}
+#symbolmark{width : 216px;
+    height : 45px;
+    position : absolute;
+    margin : 12px 0px 0px 0px;}
+#top_nevigation_bar_area{
+    width : 100%;
+    background-color : #131313;
+    height : 85px;
+    
+}
 #top_nevigation_bar{
     width : 70%;
-    margin : 20px 15% 0px 15%;
-    position : absolute;
+    height : 85px;
+    margin : 0px 15% 0px 15%;
+    position : fixed;
     display : inline-block;
+    background-color: #131313;
     }
 #right_menu_group{
     float : right;
-    margin : 10px 0px 0px 0px;
+    margin : 24px 0px 0px 0px;
 }
 
 #copyright_area{
@@ -40,19 +51,19 @@ a{text-decoration : none;
 }
 #copyright{
     color : rgba(255, 255, 255, 1);
-    font-family : 'roboto', 'sans serif';
+    font-family : 'IBM Plex Sans KR', 'sans serif';
     font-weight : 400;
     font-size : 14px;}
 #Address{
     color : rgba(255, 255, 255, 1);
-    font-family : 'roboto', 'sans serif';
+    font-family : 'IBM Plex Sans KR', 'sans serif';
     font-weight : 400;
     font-size : 14px;
-    margin : 0px 0px 0px 150px;
+    margin : 0px 0px 0px 200px;
 }
 #Tel{
     color : rgba(255, 255, 255, 1);
-    font-family : 'roboto', 'sans serif';
+    font-family : 'IBM Plex Sans KR', 'sans serif';
     font-weight : 400;
     font-size : 14px;
     float : right;
@@ -68,24 +79,25 @@ a{text-decoration : none;
     align-items: center;
 }
 .selected_subject{
-    font-family : 'roboto', 'sans serif';
+    font-family : 'IBM Plex Sans KR', 'sans serif';
     font-weight : 500;
     font-size : 24px;
     color : #FFFFFF;
     margin : 0px 1.3%;
 }
 .unselected_subject{
-    font-family : 'roboto', 'sans serif';
+    font-family : 'IBM Plex Sans KR', 'sans serif';
     font-weight : 500;
     font-size : 24px;
     color : #848484;
     margin : 0px 1.3%;
 }
 .button{
-    margin : 120px 20px;
+    margin : 120px 20px 60px 20px;
     text-align : center;
     display : flex;
     justify-content : center;
+    font-family : 'IBM Plex Sans KR', 'sans-serif';
 }
 .video_contents{
     display : inline-block;
@@ -98,17 +110,17 @@ a{text-decoration : none;
     margin : 0px 0px 10px 0px;
 }
 .title{color : rgba(255, 255, 255, 1);
-    font-family : 'roboto', 'sans serif';
-    font-size : 22px;
+    font-family : 'IBM Plex Sans KR', 'sans serif';
+    font-size : 20px;
     font-weight : 600;
     margin : 5px 0px 0px 2px;
     display : block;}
 .names{
     color : rgba(255, 255, 255, 1);
-    font-family : 'roboto', 'sans serif';
+    font-family : 'IBM Plex Sans KR', 'sans serif';
     font-size : 14px;
     font-weight : 400;
-    margin : 5px 0px 0px 2px;
+    margin : 2px 0px 0px 2px;
     display : block;
 }
 .gallery{
