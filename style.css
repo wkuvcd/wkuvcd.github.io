@@ -70,7 +70,7 @@ a{text-decoration : none;
     float : right;
 }
 #contents_area{
-    width : 1280px;
+    width : 68%;
 }
 #contents_area video{
     width : 100%;
@@ -110,14 +110,14 @@ a{text-decoration : none;
     font-family : 'IBM Plex Sans KR', 'sans-serif';
 }
 .video_contents{
-    display : inline-block;
+    width : 30%;
+    display :inline-block;
     margin : 0px 10px 20px 10px;
 }
 .thumbnail{
-    width : 400px;
-    height : 225px;
-    display : block;
-    margin : 0px 0px 10px 0px;
+    width : 100%;
+    display : inline-block;
+    margin : 0px 0px 5px 0px;
 }
 .title{color : rgba(255, 255, 255, 1);
     font-family : 'IBM Plex Sans KR', 'sans serif';
@@ -135,9 +135,7 @@ a{text-decoration : none;
 }
 .gallery{
     margin : 0px 0px 20px 0px;
-    width : 1280px;
-    
-    
+    width : 100%;
 }
 #menu_toggle_button{
     width : 20px;
