@@ -269,8 +269,7 @@ a{text-decoration : none;
         width : 49.0%;
     }
     #main_video{
-        padding-top : 120px;
-        padding-bottom : 140px;
+        padding : 120px 0px 140px 0px;
         align-items: center;
         justify-content: center;
     }
