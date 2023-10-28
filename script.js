@@ -24,10 +24,15 @@ const menuButton = document.getElementById('menu_toggle_button');
 const side_menu = document.getElementById('side_menu');
 
 menuButton.addEventListener('click', () => {
-    if (side_menu.style.right === '-300px'){
+    if (side_menu.style.right === '-400px'){
         side_menu.style.right = '0';
     }
     else {
+        side_menu.style.right = '-400px';
+    }
+});
+window.addEventListener('resize', function () {
+    if (window.innerWidth > 1024) {
         side_menu.style.right = '-300px';
     }
 });
