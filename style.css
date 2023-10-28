@@ -281,7 +281,33 @@ a{text-decoration : none;
 @media screen and (min-width: 481px) and (max-width: 1024px){
     .unselected_subject {font-size : 18px;}
     .selected_subject {font-size : 18px;}
+    #copyright_area{
+        display : block;
+        padding : 20px;
+        }
+    #contents_area {
+        width : 100%;
+        padding : 0%;}
+    #bottom_line{
+        width : 95%
     }
+    #copyright{
+        display:block;
+        font-size : 12px;
+    }
+    #Address{
+        display:block;
+        font-size : 12px;
+    }
+    #Tel{
+        display:block;
+        font-size : 12px;
+    }
+    #copyright_area{
+        width:90%;
+        
+    }    
+}
 
 
 
