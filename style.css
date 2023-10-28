@@ -8,6 +8,7 @@ body{
     align-items : center;
     height : 100vh;
     margin : 0px;
+    padding : 0px;
     background-color: #131313;
 }
 
@@ -33,6 +34,7 @@ a{text-decoration : none;
     width : 100%;
     background-color : #131313;
     height : 85px;
+    align-items: center;
     }
    
 
@@ -91,9 +93,8 @@ a{text-decoration : none;
 
 #contents_area video{
     width : 100%;
-    height : 85vh;
     border : none;
-    margin : 70px 0px 0px 0px ;
+    margin : 70px 0px 50px 0px ;
     align-items: center;
 }
 .selected_subject{
@@ -172,8 +173,44 @@ a{text-decoration : none;
 #menu_toggle_button{
     width : 20px;
     float : right;
-    
+    padding : 5px 0px 0px 0px;
     margin : 24px 0px 0px 0px;
+}
+#side_menu{
+    position : fixed;
+    top : 0;
+    right : -400px;
+    width : 300px;
+    height : 100%;
+    background-color : #131313;
+    color : #ffffff;
+    overflow-x : hidden;
+    transition : 0.3s;
+    z-index : 1;
+    padding : 100px 0px 0px 20px;
+}
+#side_menu ul{
+    list-style : none;
+    padding : 0;
+}
+#side_menu li{
+    padding : 10px;
+}
+#side_menu ul li a{
+    color : #ffffff;
+    text-decoration : none;
+}
+#side_menu a:hover{
+    color : #3498db;
+}
+#side_menu_list{
+    color : #ffffff;
+    font-family : 'IBM Plex Sans', 'sans serif';
+    font-size : 64px;
+    font-weight : 500;
+    padding : 10px;
+    left : 50px;
+    justify-content: center;
 }
 
 
@@ -194,8 +231,8 @@ a{text-decoration : none;
     
 /**스크린 사이즈에 따른 컴포넌트 사이즈 조절**/
     
-@media screen and (max-width : 768px){
-    #symbolmark {width : 210px;}
+@media screen and (max-width : 480px){
+    #symbolmark {width : 180px;}
     #top_nevigation_bar_area {height : 60px;}
     #copyright_area{
         display : block;
@@ -203,7 +240,7 @@ a{text-decoration : none;
         }
     #contents_area {
         width : 100%;
-        padding : 0 2%;}
+        padding : 0%;}
     #bottom_line{
         width : 95%
     }
@@ -219,17 +256,35 @@ a{text-decoration : none;
     #copyright_area{
         width:90%;
     }
+    .unselected_subject {font-size : 18px;}
+    .selected_subject {font-size : 18px;}
+    .button{
+        margin : 100px 20px 40px 20px;}
+    .video_contents{
+        margin : 0px 0px 20px 0px;
+        width : 49.0%;
     }
-@media screen and (max-width : 960px){
+
+    }
+
+
+@media screen and (min-width: 481px) and (max-width: 1024px){
     .unselected_subject {font-size : 18px;}
     .selected_subject {font-size : 18px;}
     }
-@media screen and (max-width : 1140px){
-    .names {font-size : 10px;}
-    .title {font-size : 14px;}
-    }
-@media screen and (max-width : 1640px){
+
+
+
+
+
+
+
+
+/**글자 수, 썸네일 관련 뷰포트 width 설정 **/
+@media screen and (max-width : 1640px) and (min-width : 1025px){
     .video_contents {
         width : 46%;
         margin : 3px;}
+    .names {font-size : 10px;}
+    .title {font-size : 14px;}
     }
