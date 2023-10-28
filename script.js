@@ -19,3 +19,15 @@ const rightMenuGroup = document.getElementById('right_menu_group');
 menuToggleButton.addEventListener('click', function () {
     rightMenuGroup.classList.toggle('show_menu');
 });
+
+const menuButton = document.getElementById('menu_toggle_button');
+const side_menu = document.getElementById('side_menu');
+
+menuButton.addEventListener('click', () => {
+    if (side_menu.style.right === '-300px'){
+        side_menu.style.right = '0';
+    }
+    else {
+        side_menu.style.right = '-300px';
+    }
+});
