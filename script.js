@@ -36,3 +36,7 @@ window.addEventListener('resize', function () {
         side_menu.style.right = '-300px';
     }
 });
+
+
+
+
