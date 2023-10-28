@@ -246,15 +246,19 @@ a{text-decoration : none;
     }
     #copyright{
         display:block;
+        font-size : 12px;
     }
-    #address{
+    #Address{
         display:block;
+        font-size : 12px;
     }
     #Tel{
         display:block;
+        font-size : 12px;
     }
     #copyright_area{
         width:90%;
+        
     }
     .unselected_subject {font-size : 18px;}
     .selected_subject {font-size : 18px;}
@@ -263,6 +267,12 @@ a{text-decoration : none;
     .video_contents{
         margin : 0px 0px 20px 0px;
         width : 49.0%;
+    }
+    #main_video{
+        padding-top : 80px;
+        padding-bottom : 100px;
+        align-items: center;
+        justify-content: center;
     }
 
     }
