@@ -182,7 +182,7 @@ a{text-decoration : none;
     right : -400px;
     width : 300px;
     height : 100%;
-    background-color : #131313;
+    background-color : rgba(19, 19, 19, 0.9);
     color : #ffffff;
     overflow-x : hidden;
     transition : 0.3s;
@@ -232,11 +232,11 @@ a{text-decoration : none;
 /**스크린 사이즈에 따른 컴포넌트 사이즈 조절**/
     
 @media screen and (max-width : 480px){
-    #symbolmark {width : 180px;}
-    #top_nevigation_bar_area {height : 60px;}
+    #symbolmark {width : 160px;}
     #copyright_area{
         display : block;
         padding : 20px;
+        padding-top : 0px;
         }
     #contents_area {
         width : 100%;
@@ -257,7 +257,7 @@ a{text-decoration : none;
         font-size : 12px;
     }
     #copyright_area{
-        width:90%;
+        width:95%;
         
     }
     .unselected_subject {font-size : 18px;}
@@ -269,11 +269,17 @@ a{text-decoration : none;
         width : 49.0%;
     }
     #main_video{
-        padding-top : 80px;
-        padding-bottom : 100px;
+        padding-top : 120px;
+        padding-bottom : 140px;
         align-items: center;
         justify-content: center;
     }
+    #top_nevigation_bar{
+        width : 90%;
+        padding : 0% 5% 4% 5%;
+        height : 60px;
+    }
+    #top_nevigation_bar_area {height : 60px;}
 
     }
 
@@ -284,6 +290,7 @@ a{text-decoration : none;
     #copyright_area{
         display : block;
         padding : 20px;
+        padding-top : 0px;
         }
     #contents_area {
         width : 100%;
@@ -306,7 +313,15 @@ a{text-decoration : none;
     #copyright_area{
         width:90%;
         
-    }    
+    }
+    #symbolmark{
+        width : 170px;
+    }
+    #top_nevigation_bar{
+        width : 90%;
+        padding : 0px 5%;
+    }
+    
 }
 
 
@@ -323,4 +338,22 @@ a{text-decoration : none;
         margin : 3px;}
     .names {font-size : 10px;}
     .title {font-size : 14px;}
+    #copyright{
+        display:block;
+        font-size : 12px;
     }
+    #Address{
+        display:block;
+        font-size : 12px;
+    }
+    #Tel{
+        display:block;
+        font-size : 12px;
+    }
+    #copyright_area{
+        width:70%;
+        
+    }
+}
+
+   
