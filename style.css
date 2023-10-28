@@ -24,7 +24,7 @@ a{text-decoration : none;
     }
 /** SHAPE STYLESHEET**/
 #symbolmark{
-    width : 215px;
+    width : 200px;
     position : absolute;
     margin : 12px 0px 0px 0px;}
     
@@ -39,9 +39,9 @@ a{text-decoration : none;
    
 
 #top_nevigation_bar{
-    width : 70%;
+    width : 68%;
     height : 85px;
-    padding : 0px 15% 0px 15%;
+    padding : 0px 16% 0px 16%;
     position : fixed;
     display : inline-block;
     background-color: #131313;
@@ -53,7 +53,7 @@ a{text-decoration : none;
 }
 
 #copyright_area{
-    width : 70%;
+    width : 68%;
     margin : 20px 300px;
     display : flex;
     justify-content: space-between;
@@ -82,7 +82,7 @@ a{text-decoration : none;
     font-size : 14px;
 }
 #contents_area{
-    padding : 0% 15% 0% 15%;
+    padding : 1.2% 15% 0% 15%;
     margin : 0 auto;
     display : block;
     justify-content : space-between;
@@ -94,7 +94,7 @@ a{text-decoration : none;
 #contents_area video{
     width : 100%;
     border : none;
-    margin : 70px 0px 50px 0px ;
+    margin : 70px 0px 30px 0px ;
     align-items: center;
 }
 .selected_subject{
@@ -227,7 +227,7 @@ a{text-decoration : none;
 }
 #side_menu.show-menu {
     display: block;}
-#bottom_line{width : 70%}
+#bottom_line{width : 68%}
     
 /**스크린 사이즈에 따른 컴포넌트 사이즈 조절**/
     
@@ -281,7 +281,12 @@ a{text-decoration : none;
     #top_nevigation_bar_area {height : 60px;}
 
     }
-
+    .title{
+        font-size : 16px;
+    }
+    .names{
+        font-size : 10px;
+    }
 
 @media screen and (min-width: 481px) and (max-width: 1024px){
     .unselected_subject {font-size : 18px;}
@@ -320,9 +325,23 @@ a{text-decoration : none;
         width : 90%;
         padding : 0px 5%;
     }
-    
+    .video_contents{
+        margin : 0px 0px 20px 0px;
+        width : 49.0%;
+    }
+    .unselected_subject{
+        font-size : 20px;
+    }
+    .selected_subject{
+        font-size : 20px;
+    }
 }
-
+    .title{
+        font-size : 18px;
+    }
+    .names{
+        font-size : 12px;
+    }
 
 
 
@@ -332,9 +351,7 @@ a{text-decoration : none;
 
 /**글자 수, 썸네일 관련 뷰포트 width 설정 **/
 @media screen and (max-width : 1640px) and (min-width : 1025px){
-    .video_contents {
-        width : 46%;
-        margin : 3px;}
+    
     .names {font-size : 10px;}
     .title {font-size : 14px;}
     #copyright{
@@ -350,9 +367,32 @@ a{text-decoration : none;
         font-size : 12px;
     }
     #copyright_area{
-        width:70%;
-        
+        width:95%;
+    }
+    #contents_area {
+        width : 95%;
+        padding : 0%;
+        margin : 0 auto;}
+    .video_contents{
+        width : 32%;
+    margin : 0px 0.4% 20px 0.4%;
+    }
+    #bottom_line{width : 95%;}
+    .unselected_subject{
+        font-size : 22px;
+    }
+    .selected_subject{
+        font-size : 22px;
     }
 }
 
    
+
+
+
+
+
+
+
+
+
