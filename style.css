@@ -11,7 +11,9 @@ body{
     padding : 0px;
     background-color: #131313;
 }
-
+#index_body{
+    overflow :hidden;
+}
 .right_menu{
     color : rgba(255, 255, 255, 1);
     margin : 0px 10px;
@@ -53,7 +55,7 @@ a{text-decoration : none;
 }
 
 #copyright_area{
-    width : 68%;
+    width : 72%;
     margin : 20px 300px;
     display : flex;
     justify-content: space-between;
@@ -88,8 +90,40 @@ a{text-decoration : none;
     justify-content : space-between;
     align-items : center;
 }
-
-
+#poster_area{
+    width : 49%;
+    vertical-align: middle;
+    display : inline-block;
+}
+.poster{
+    width : 45%;
+    padding : 0 10px;
+    margin : 0 auto;
+    display : inline-block;
+}
+#explain_area{
+    width : 49%;
+    margin : 0 auto;
+    display : inline-block;
+    vertical-align: middle;
+}
+#title_caption_area{
+    width : 100%;
+    display : inline-block;
+    margin : 0 auto;
+}
+#exhibition_script{
+    width : 100%;
+    display : inline-block;
+    margin : 15px 0px auto;
+}
+.weclipse_typo{
+    width : 40%;
+    margin : 12px 0px;
+}
+#team_info{
+    display : inline-block;
+}
 
 #contents_area video{
     width : 100%;
@@ -115,8 +149,179 @@ a{text-decoration : none;
     transition: color 0.3s;
 }
 
+#weclipse_gradient_line{
+    width : 80%;
+    float : left;
+    height : 2px;
+    background : linear-gradient(to right,
+        #131313 0%,
+        #ffffff 10%,
+        #ffffff 40%,
+        #131313 90%);
+    border : none;
+}
+.sub_title{
+    font-family : 'IBM Plex sans KR', 'sans serif';
+    font-size : 24px;
+    font-weight : 500;
+    color : white;
+}
+h1{
+    color : white;
+    font-family : 'IBM Plex sans KR', 'sans serif';
+    font-size : 24px;
+    font-weight : 600;
+}
+.context{
+    color : white;
+    font-family : 'IBM Plex sans KR', 'sans serif';
+    font-size : 16px;
+    font-weight : 400;
+    margin : 0px 0px 20px 0px;
+}
+h3{
+    color : white;
+    font-family : 'IBM Plex sans KR', 'sans serif';
+    font-size : 24px;
+    font-weight : 600;
+    display : inline-block;
+}
+h4{
+    color : white;
+    font-family : 'IBM Plex sans KR', 'sans serif';
+    font-size : 18px;
+    font-weight : 600;
+}
+#team_info{
+    margin : 6px 0px;
+    padding : 0px;
+}
+#team_number{
+    color : white;
+    font-family : 'IBM Plex sans KR', 'sans serif';
+    font-size : 22px;
+    font-weight : 600;
+}
+#team_name{
+    color : white;
+    font-family : 'IBM Plex sans KR', 'sans serif';
+    font-size : 22px;
+    font-weight : 400;
+}
+#team_member{
+    color : white;
+    font-family : 'IBM Plex sans KR', 'sans serif';
+    font-size : 14px;
+    font-weight : 500;
+}
+#project_explain{
+    color : white;
+    font-family : 'IBM Plex sans KR', 'sans serif';
+    font-size : 14px;
+    font-weight : 300;
+    margin : 0px 0px 0px 16px;
+}
+#exhibition_info{
+    display : grid;
+    grid-template-columns : repeat(3, 1fr);
+    gap : 10px;
+    margin : 0px 0px 120px 20px;
+
+}
+#exhibition_location{
+    color : white;
+    font-family : 'IBM Plex sans KR', 'sans serif';
+    font-size : 24px;
+    font-weight : 600;
+}
+#exhibition_address{
+    color : white;
+    font-family : 'IBM Plex sans KR', 'sans serif';
+    font-size : 16px;
+    font-weight : 400;
+    margin : 0px 0px 0px 20px;
+}
+#exhibition_map_info{
+    margin : 10px 0px 0px 0px;
+    width : 100%;
+}
+#day_info{
+    float : right;
+    color : white;
+    font-family : 'IBM Plex sans KR', 'sans serif';
+    font-size : 24px;
+    font-weight : 600;
+}
+#exhibition_map{
+    margin : 0px 0px 80px 0px;
+}
+#graduate_student {
+    width: 80%;
+    margin: 0px 5% 0% 0%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 12px;
+}
+
+#student_name {
+    color: white;
+    font-family: 'IBM Plex sans KR', 'sans serif';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#professor_area {
+    color: white;
+    width: 100%;
+    font-family: 'IBM Plex sans KR', 'sans serif';
+    font-size: 16px;
+    display : grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#entry_title {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50%;
+}
+
+#entry_grid_layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin : 0px 0px 80px 0px;
+}
+
+#subject {
+    line-height: 2.4;
+}
+
+#professor {
+    font-weight: 700;
+    line-height: 2.4;
+}
+
+#professor_a {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+#professor_b {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
 
 
+
+
+
+#photozone{width : 100%;}
+#fin{
+    font-family : 'IBM Plex Sans KR', 'sans serif';
+    font-weight : 700;
+    font-size : 32px;
+    float : right;
+    color : white;}
 #unactived a:hover{
     color : #aaaaaa;
     cursor : pointer;
@@ -212,7 +417,9 @@ a{text-decoration : none;
     left : 50px;
     justify-content: center;
 }
-
+#side_menu.show-menu {
+    display: block;}
+#bottom_line{width : 72%;}
 
 /** 반응형 홈페이지용 STYLESHEET**/
 @media (min-width : 769px) {
@@ -225,70 +432,188 @@ a{text-decoration : none;
         display : none;
     }
 }
-#side_menu.show-menu {
-    display: block;}
-#bottom_line{width : 68%}
+
     
 /**스크린 사이즈에 따른 컴포넌트 사이즈 조절**/
     
-@media screen and (max-width : 480px){
-    #symbolmark {width : 160px;}
-    #copyright_area{
-        display : block;
-        padding : 20px;
-        padding-top : 0px;
-        }
-    #contents_area {
+@media screen and (max-width : 660px) {
+    #weclipse_gradient_line{
         width : 100%;
-        padding : 0%;}
-    #bottom_line{
-        width : 95%
+        background : linear-gradient(to right,
+        #131313 0%,
+        #ffffff 25%,
+        #ffffff 75%,
+        #131313 100%);
     }
-    #copyright{
-        display:block;
-        font-size : 12px;
+    
+    body {
+        text-align: center; /* 전체 페이지 가운데 정렬 */
+        padding : 0px;
     }
-    #Address{
-        display:block;
-        font-size : 12px;
+    #top_nevigation_bar_area {
+        text-align: left; /* 네비게이션 바 왼쪽 정렬 */
     }
-    #Tel{
-        display:block;
-        font-size : 12px;
+    #contents_area {
+        text-align: left; /* 컨텐츠 왼쪽 정렬 */
+        padding : 2%;
     }
-    #copyright_area{
-        width:95%;
-        
+    #contents_area, #contents_area h3 {
+        text-align: center; /* 제목 등 중앙 정렬 */
     }
-    .unselected_subject {font-size : 18px;}
-    .selected_subject {font-size : 18px;}
-    .button{
-        margin : 100px 20px 40px 20px;}
-    .video_contents{
-        margin : 0px 0px 20px 0px;
-        width : 49.0%;
+    .entry_grid {
+        text-align: left;
     }
-    #main_video{
-        padding : 120px 0px 140px 0px;
+    .poster {
+        padding: 0;
+    }
+    #symbolmark {
+        width: 160px;
+    }
+    #copyright_area {
+        display: block;
+        padding: 20px;
+        padding-top: 0;
+    }
+    #bottom_line {
+        width: 95%;
+    }
+    #copyright {
+        display: block;
+        font-size: 12px;
+    }
+    #Address {
+        display: block;
+        font-size: 12px;
+    }
+    #Tel {
+        display: block;
+        font-size: 12px;
+    }
+    #copyright_area {
+        width: 95%;
+    }
+    .unselected_subject {
+        font-size: 18px;
+    }
+    .selected_subject {
+        font-size: 18px;
+    }
+    .button {
+        margin: 100px 20px 40px 20px;
+    }
+    .video_contents {
+        margin: 0px 0px 20px 0px;
+        width: 49.0%;
+    }
+    #main_video {
+        padding: 120px 0px 140px 0px;
         align-items: center;
         justify-content: center;
     }
-    #top_nevigation_bar{
-        width : 90%;
-        padding : 0% 5% 4% 5%;
-        height : 60px;
+    #top_nevigation_bar {
+        width: 90%;
+        padding: 0% 5% 4% 5%;
+        height: 60px;
     }
-    #top_nevigation_bar_area {height : 60px;}
+    #top_nevigation_bar_area {
+        height: 60px;
+    }
+    .title {
+        font-size: 16px;
+    }
+    .names {
+        font-size: 10px;
+    }
+    #index_body {
+        overflow: overlay;
+    }
+    .context {
+        font-size: 12px;
+        padding: 0px;
+    }
+    #student_name {
+        font-size: 14px;
+    }
+    .four_letter_name {
+        font-size: 13px;
+        letter-spacing: -2px;
+    }
+    #graduate_student {
+        grid-template-columns: repeat(5, 1fr);
+        margin: 0px 20px;
+    }
+    #contents_area {
+        align-items: center;
+    }
+    #professor {
+        font-size: 11px;
+    }
+    #professor_a {
+        margin: 0px 0px 0px 20px;
+    }
+    #professor_b {
+        margin: 0px 20px 0px 0px;
+    }
+    #subject {
+        font-size: 11px;
+        letter-spacing: -1px;
+    }
+    #exhibition_address {
+        display: none;
+    }
+    #exhibition_location {
+        display : none;
+    }
+    #day_info {
+        display : none;
+    }
+    #project_explain {
+        display: none;
+    }
+    #team_member {
+        display: none;
+    }
+    #team_number {
+        display : block;
+        font-size: 18px;
+    }
+    #team_name {
+        font-size: 16px;
+        letter-spacing: -1px;
+        margin : 0px 0px 4px 0px;
+    }
+    h3 {
+        padding: 0px 0px 0px 12px;
+    }
+    #fin {
+        font-size: 24px;
+    }
+    #poster_area {
+        display: block;
+        width: 100%;
+        padding: 0px 10px;
+    }
+    #explain_area {
+        display: block;
+        width: 100%;
+        padding: 0px 10px;
+        margin: 40px 0px;
+    }
+    #exhibition_map {
+        padding: 0px 20px;
+    }
+    #entry_grid_layout {
+        display: block;
+        padding: 0px 20px;
+    }
+    #entry_grid {
+        padding: 0px 20px;
+    }
+}
 
-    }
-    .title{
-        font-size : 16px;
-    }
-    .names{
-        font-size : 10px;
-    }
 
-@media screen and (min-width: 481px) and (max-width: 1024px){
+
+@media screen and (min-width: 901px) and (max-width: 1024px){
     .unselected_subject {font-size : 18px;}
     .selected_subject {font-size : 18px;}
     #copyright_area{
@@ -335,14 +660,80 @@ a{text-decoration : none;
     .selected_subject{
         font-size : 20px;
     }
-}
     .title{
         font-size : 18px;
     }
     .names{
         font-size : 12px;
     }
+    #index_body{
+        overflow:overlay;
+    }
+    .weclipse_typo{
+        width : 50%;
+    }
+   
+    .sub_title{
+        display : none;
+    }
+    h1{
+        font-size : 22px;
+    }
+    .context{
+        font-size : 12px;
+        margin : 0px 0px 0px 0px;
+    }
+    #exhibition_script{
+        margin : 4px 0px 0px 0px;
+    }
+    h3{
+        padding : 0px 0px 0px 10px;}
+    #team_member{
+        font-size : 10px;
+    }
+    #project_explain{
+        margin : 0px 0px 0px 28px;
+        font-size : 12px;
+    }
+    #exhibition_map{
+        padding : 0px 2%;
+    }
+    #graduate_student{
+        margin : 0px 0px 0px 2%;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    #professor_area{
+        margin : 0px 0px 0px 2%;
+    }
+    #subject{
+        font-size : 14px;
+        letter-spacing: -1px;
+        line-height : 2.8;
+    }
+    #professor{
+        font-size : 14px;
+        line-height : 2.8;
+    }
+    #fin{
+        margin : 0px 2% 0px 0px;
+    }
+    #photozone{
+        width : 95%;
+        margin : 0 2.5%;
+    }
+    .poster{
+        padding : 0px;
+    }
+    .context{
+        font-size : 14px;
+    }
+    #exhibition_address{
+        margin : 0px 0px 0px 4px;
+    }
 
+}
+
+   
 
 
 
@@ -351,7 +742,13 @@ a{text-decoration : none;
 
 /**글자 수, 썸네일 관련 뷰포트 width 설정 **/
 @media screen and (max-width : 1640px) and (min-width : 1025px){
-    
+    .context{
+        font-size : 14px;
+    }
+    .sub_title{
+        margin : 20px 0px 4px 0px;
+        font-size : 20px;
+    }
     .names {font-size : 10px;}
     .title {font-size : 14px;}
     #copyright{
@@ -384,8 +781,162 @@ a{text-decoration : none;
     .selected_subject{
         font-size : 22px;
     }
+    #subject{
+        font-size : 14px;
+    }
+    #professor{
+        font-size : 14px;
+    }
+    #graduate_student{
+        grid-template-columns: repeat(6, 1fr);
+        margin : 0px 0px 0px 8px;
+    }
+    #student_name{
+        font-size : 14px;
+    }
+    h3{
+        padding : 0px 0px 0px 6px;
+    }
+    #professor_area{
+        margin : 0px 0px 0px 8px;
+    }
+    
+    
 }
-
+@media screen and (min-width : 661px) and (max-width : 900px) {
+    .video_contents{
+        width : 45%;
+    }
+    .right_menu{
+        font-size : 14px;
+    }
+    #contents_area{
+        width : 90%;
+        padding : 0%;
+    }
+    #symbolmark{
+        width : 160px;
+    }
+    .button{
+        margin : 120px 0px 60px 0px;
+    }
+    #bottom_line{
+        width : 90%;
+    }
+    #copyright_area{
+        width : 90%;
+    }
+    #gallery{
+        padding : 0px 0px 0px 20px;
+        width : 100%;
+    }
+    .thumbnail{
+        width : 100%;
+    }
+    h3{padding : 0px 0px 0px 4px;}
+    #explain_area{
+        display : block;
+        width : 100%;
+        padding : 25px;
+    }
+    #poster_area{
+        display : block;
+        width : 100%;
+        padding : 20px;
+    }
+    .context{
+        font-size : 14px;
+    }
+    #team_number{
+        font-size : 18px;
+    }
+    #team_name{
+        font-size : 18px;
+    }
+    #team_member{
+        display : block;
+        font-size : 12px;
+        font-weight : 400;
+    }
+    #project_explain{
+        display : none;
+    }
+    #student_name{
+        font-size : 16px;
+    }
+    .four_letter_name{
+        letter-spacing: -1px;
+        font-size : 13px;
+    }
+    #subject{
+        font-size : 12px;
+        letter-spacing : -1px;
+    }
+    #professor{
+        font-size : 12px;
+    }
+    #fin{
+        font-size : 24px;
+    }
+    #exhibition_location{
+        font-size : 22px;
+    }
+    #exhibition_address{
+        display : none;
+    }
+    #day_info{
+        font-size : 22px;
+    }
+    .weclipse_typo{
+        width : 30%;
+    }
+    #weclipse_gradient_line{
+        width : 100%;
+    }
+    
+    #graduate_student{
+        grid-template-columns: repeat(5, 1fr);
+        padding : 0px 0px 0px 5px;
+        margin : 0 auto;
+    }
+    #professor_a{
+        
+        margin : 0 auto;
+    }
+    #professor_b{
+        
+        margin : 0 auto;
+    }
+    #subject{
+        font-size : 14px;
+    }
+    #professor{
+        font-size : 14px;
+        margin : 0 auto;
+    }
+    #entry_grid_layout{
+        display : block;
+    }
+    .entry_grid{
+        margin : 40px 0px;
+    }
+    #professor_area{
+        padding : 0px 0px 0px 4px;
+    }
+    #copyright_area{
+        display : block;
+    }
+    #copyright{
+        display : block;
+    }
+    #Address{
+        display : block;
+    }
+    #Tel{
+        display : block;
+    }
+    
+}
    
 
 
